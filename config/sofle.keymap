@@ -44,11 +44,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans    &trans  &trans  &trans  &kp F4  &kp F12                    &kp LBKT  &kp RBKT   &kp BSLH   &kp MINUS  &kp EQUAL  &trans
-&trans    &trans  &trans  &trans  &trans  &trans                     &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &trans     &kp DEL
-&kp CAPS  &trans  &trans  &trans  &trans  &trans                     &trans    &kp UP     &trans     &trans     &kp SQT    &trans
-&trans    &trans  &trans  &trans  &trans  &trans   &trans    &trans  &kp LEFT  &kp DOWN   &kp RIGHT  &trans     &trans     &trans
-                  &trans  &trans  &trans  &trans   &trans    &trans  &trans    &trans     &trans     &trans
+&trans    &trans  &trans  &trans     &kp F4     &kp F12                     &kp LBKT  &kp RBKT   &kp BSLH   &kp MINUS  &kp EQUAL  &trans
+&mo 2     &trans  &trans  &trans     &trans     &trans                      &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &trans     &kp DEL
+&kp CAPS  &trans  &trans  &trans     &trans     &trans                      &trans    &kp UP     &trans     &trans     &kp SQT    &trans
+&trans    &trans  &trans  &kp LCTRL  &kp LSHFT  &kp LALT  &trans    &trans  &kp LEFT  &kp DOWN   &kp RIGHT  &trans     &trans     &trans
+                  &trans  &trans     &trans     &trans    &trans    &trans  &trans    &trans     &trans     &trans
             >;
         };
 
